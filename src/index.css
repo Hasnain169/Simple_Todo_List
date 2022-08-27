@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+}
+
+.navbar{
+  background: black;
+  opacity: 0.95;
+  box-shadow: 0px 10px 10px 0px #aaa;
+}
+
+.nav-item{
+  color: #fff;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-item h1{
+  font-size: 30px;
+}
+
+.nav-item .links{
+  margin-left: auto;
+}
+
+.nav-item .links a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item .links a:hover{
+  background: #fff;
+  cursor: pointer;
+  color: black;
+}
+
+.head{
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.head h1{
+  margin-top: 10px;
+}
+
+.add-items h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-items{
+  max-width: 800px;
+  margin: 0px auto;
+  align-items: center;
+  /* margin-bottom: 10px; */
+  /* border: 2px solid red; */
+}
+
+.add-items .adding{
+  margin-left: 245px;
+  margin-right: 50px;
+  padding: 5px 10px;
+  border: none;
+  font-weight: 500;
+  border-radius: 5px;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 15px;
+}
+
+.add-items .btn-add{
+  margin-left: 3px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 15px;
+}
+
+.add-items .btn-add:hover{
+  background: black;
+  color: #fff;
+  
+}
+
+.show-item{
+  max-width: 800;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.show-item .each-item h3{
+  margin-bottom: 10px;
+}
+
+.show-item .each-item .btn-del{
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 15px;  
+}
+
+.show-item .each-item .btn-del:hover{
+  background: black;
+  color: #fff;
+}
+.btn-edit{
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 15px;
+  margin-left: 8px;
+}
+
+.btn-edit:hover{
+  background: black;
+  color: #fff;
+}
+
+.main-content{
+  /* border: 2px green solid; */
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.main-content:hover{
+  box-shadow: 0px 10px 10px 0px #aaa;
+}
